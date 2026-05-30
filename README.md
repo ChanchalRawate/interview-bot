@@ -44,7 +44,7 @@ This project was developed and deployed using Replit and powered by the Groq API
 
 The application is deployed and hosted on Replit.
 
-Live Demo: [Paste Your Replit URL Here]
+Live Demo: [https://create-repl--chanchal77.replit.app/]
 
 ## Author
 
