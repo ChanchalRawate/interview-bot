@@ -1,43 +1,57 @@
-# 100x Interview Voice Bot
+# AI Voice Interview Bot
 
-A voice bot that answers interview questions as me — calm, analytical, IIT ISM Dhanbad background.
+## Overview
 
-## Deploy on Replit (2 minutes, free)
+AI Voice Interview Bot is a voice-enabled conversational AI application that answers interview questions in my communication style and personality. The chatbot supports both voice and text interactions, creating a natural and interactive interview experience.
 
-### Step 1 — Create the Repl
-1. Go to [replit.com](https://replit.com) and sign up / log in (free)
-2. Click **+ Create Repl**
-3. Choose template: **Node.js**
-4. Name it anything (e.g. `interview-bot`) → click **Create Repl**
-
-### Step 2 — Upload the files
-In the Replit file panel (left sidebar):
-- Delete the default `index.js` file
-- Upload `server.js`, `index.html`, and `package.json` from this folder
-
-### Step 3 — Add your API key (Secrets)
-1. In the left sidebar, click the **🔒 Secrets** tab (lock icon)
-2. Click **+ New Secret**
-3. Key: `ANTHROPIC_API_KEY`
-4. Value: your Anthropic API key (get one free at [console.anthropic.com](https://console.anthropic.com))
-5. Click **Add Secret**
-
-### Step 4 — Run it
-1. Click the green **▶ Run** button
-2. Replit will start the server — a browser preview appears on the right
-3. Click the **↗ Open in new tab** button to get your public URL
-
-**That's it.** Share that URL with 100x — it works for anyone, no setup needed.
-
----
-
-## How it works
-- `server.js` — Node.js HTTP server that proxies requests to the Anthropic API (keeps your key secret)
-- `index.html` — The full voice bot UI (type or speak questions, hear answers read aloud)
-- No npm installs needed — uses only Node.js built-ins (`http`, `https`, `fs`)
+This project was developed and deployed using Replit and powered by the Groq API for fast AI inference.
 
 ## Features
-- 🎙️ Voice input (Chrome/Edge) — click the mic button and speak
-- 🔊 Text-to-speech — answers are read aloud automatically
-- 💬 Conversation memory — follow-up questions work naturally
-- 📱 Works on mobile too
+
+* Voice input through microphone
+* AI-generated interview responses
+* Personalized answers based on my background and experiences
+* Text and voice interaction
+* Clean and user-friendly interface
+* Real-time conversation experience
+
+## Technology Stack
+
+* Replit
+* Groq API
+* JavaScript
+* HTML/CSS
+* Web Speech API
+* Speech Synthesis API
+
+## How It Works
+
+1. User asks a question using voice or text.
+2. Speech is converted to text using the browser's speech recognition.
+3. The query is sent to the Groq-powered AI backend.
+4. The AI generates a personalized response.
+5. The response is displayed on screen and can be spoken back to the user.
+
+## Sample Questions
+
+* What should we know about your life story?
+* What is your #1 superpower?
+* What are the top 3 areas you'd like to grow in?
+* What misconception do your coworkers have about you?
+* How do you push your boundaries and limits?
+
+## Deployment
+
+The application is deployed and hosted on Replit.
+
+Live Demo: [Paste Your Replit URL Here]
+
+## Author
+
+**Chanchal Rawate**
+Integrated M.Tech, Mathematics and Computing
+IIT (ISM) Dhanbad
+
+## Purpose
+
+This project was created as part of the 100x AI Voice Bot assessment to demonstrate AI application development, prompt engineering, conversational design, and deployment of an interactive voice-enabled system.
