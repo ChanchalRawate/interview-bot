@@ -52,6 +52,5 @@ Live Demo: https://create-repl--chanchal77.replit.app/
 Integrated M.Tech, Mathematics and Computing
 IIT (ISM) Dhanbad
 
-## Purpose
 
-This project was created as part of the 100x AI Voice Bot assessment to demonstrate AI application development, prompt engineering, conversational design, and deployment of an interactive voice-enabled system.
+
